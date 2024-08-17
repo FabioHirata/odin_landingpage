@@ -1,0 +1,33 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+   background-color: #1F2937;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   list-style: ;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.part01 {
+    display: flex;
+    flex-direction: column;
+}
